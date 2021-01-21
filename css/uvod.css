@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 253, 248);
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 245px;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    border: black solid 4px;
+  }
+
+  .zarovnani {
+      text-align: left;
+    font-size: 17px;
+  }
+
+  a {
+      color: rgb(0, 37, 202);
+  }
+
+  a:hover {
+      color: rgb(77, 0, 150);
+  }
+
