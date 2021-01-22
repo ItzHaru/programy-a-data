@@ -6,9 +6,13 @@ h1 {
 .text {
     text-align: left;
 }
-header{
+
+header, main, .menu {
     width: 1200px;
     margin: 30px auto;
+}
+
+header{
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
     background-color: white;
@@ -17,13 +21,12 @@ header{
 }
 
 .menu {
-    width: 1208px;
-    margin-left: 140px;
+    margin-top: 10px;
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
     background-color: white;
     font-size: 25px;
-    padding: 7px;
+    padding: 10px;
 }
 
 .menu a:hover {
@@ -45,8 +48,6 @@ body {
 }
 main {
     border: 3px solid rgb(0, 0, 0);
-    width: 1200px; 
-    margin-left: 140px;
     margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -68,4 +69,11 @@ h3 {
 
 .okraj {
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    main, header, .menu {
+        width: 95%;
+        margin: 10px auto;
+    }   
 }
